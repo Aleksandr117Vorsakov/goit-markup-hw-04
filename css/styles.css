@@ -197,6 +197,11 @@ margin-left: auto;
 
 
 /* qualities and skills */
+.icon-antenna-1{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
 .details-title{
     color:var(--heading-main-color);
     font-size: 14px;
