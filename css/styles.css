@@ -133,9 +133,10 @@ align-items: center;
     letter-spacing: 0.02em;
 
 }
-.contact-nav .link:hover,
-.contact-nav .link:focus{
-    color:var(--link-color);
+.link:hover,  
+.link:focus{  
+     color:var(--link-color); 
+
 }
 .contact-nav{
 display: flex;
@@ -145,9 +146,36 @@ margin-left: auto;
 
 .contact-nav-item{
     margin-right: 65px;
+    color: var(--primary-text-color);
+    
 }
 .contact-nav-item:last-child{
     margin: 0;
+}
+.icon-smartphone-1{
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: var(--primary-text-color);
+}
+.icon-envelope-1{
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--primary-text-color);
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-smartphone-1:hover,
+.icon-smartphone-1:focus{
+    fill: #2196f3;
+}
+.icon-envelope-1:hover,
+.icon-envelope-1:focus{
+    fill: #2196f3;
 }
 
 /* hero */
@@ -197,10 +225,19 @@ margin-left: auto;
 
 
 /* qualities and skills */
-.icon-antenna-1{
-    position: absolute;
+
+.icon-skills{
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+   
+}
+.icon-skills-svg{
     width: 70px;
     height: 70px;
+    margin: 25px 100px;
 }
 .details-title{
     color:var(--heading-main-color);
@@ -373,6 +410,11 @@ margin-left: auto;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+}
+.icon-teem{
+    width: 20px;
+    height: 20px;
+    display: inline;
 }
 .staff{
     display: flex;
