@@ -512,6 +512,7 @@ margin-left: auto;
     display: flex;
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 .clients-titel {
     margin: 0;
