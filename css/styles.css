@@ -79,8 +79,6 @@ p:last-child{
     line-height:1.2;
     letter-spacing: 0.03em;
     align-items: center;
-    margin-bottom: 20px;
-
     }
    
 
@@ -239,12 +237,14 @@ margin-left: auto;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .icon-skills-svg{
     width: 70px;
     height: 70px;
-    margin: 25px 100px;
+    
 }
 .details-title{
     color:var(--heading-main-color);
@@ -443,7 +443,7 @@ margin-left: auto;
     margin-right: 10px;
 }
 .svg-icon{
-    fill: #757575;
+    fill: #AFB1B8;
 }
 .teem-link-icon:hover .svg-icon, .teem-link-icon:focus .svg-icon{
     fill: var(--main-background-color);
@@ -539,6 +539,7 @@ margin-left: auto;
     letter-spacing: 0.03em;
     font-style:normal;
     margin-bottom: 9px;
+    margin-top: 20px;
 }
 .footer-contact-link{
     color:var(--footer-contact-color);
